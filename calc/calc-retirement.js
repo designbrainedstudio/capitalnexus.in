@@ -61,7 +61,7 @@ function calculate() {
     monthlyExpenditure = $("#monthly-expenditure").val();
 
     if (!showingAnswerCard) {
-      if (monthlyExpenditure != "") {
+      if (monthlyExpenditure != undefined) {
         showingAnswerCard = true;
         if ($(".calc_answer-card").hasClass("hidden")) {
           $(".calc_answer-card").removeClass("hidden");

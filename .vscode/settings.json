@@ -1,8 +1,0 @@
-{
-  "editor.formatOnSave": true,
-  "editor.formatOnType": false,
-  "editor.fontLigatures": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontWeight": "normal",
-  "liveServer.settings.port": 5500
-}
