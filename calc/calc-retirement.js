@@ -1,7 +1,7 @@
 import {
   setupRadioValuesListener,
   setupTextInputChangeListener,
-} from "./calc-utils.js";
+} from "./calc-utils.min.js";
 
 let documentReady = false;
 let showingAnswerCard = false;

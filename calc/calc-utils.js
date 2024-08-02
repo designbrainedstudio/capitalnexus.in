@@ -3,6 +3,7 @@
 export function setupRadioValuesListener(radioComponents, resultInputId) {
   radioComponents.forEach(function (selector) {
     $(selector).on("change", function () {
+      // If radio is selected/checked,
       if ($(this).is(":checked")) {
         var resultInput = $(resultInputId);
         resultInput.val($(this).val());
